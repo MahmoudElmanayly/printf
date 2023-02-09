@@ -50,7 +50,7 @@ this function built from scratch with enhanced improvements like:
  | %r      : reverse string  DONE |
  | %R      : ROT13 string    DONE |
  ----------------------------------
- |            POINTER        DONE |
+ |            POINTER             |
  ----------------------------------
  | %p      : void*           DONE | 
  ----------------------------------
@@ -77,3 +77,6 @@ this function built from scratch with enhanced improvements like:
  ----------------------------------
 
 ```
+
+## Run the program
+> ./run.sh
