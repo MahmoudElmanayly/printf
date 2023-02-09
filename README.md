@@ -1,21 +1,30 @@
+# Printf
 
 
-%[flags][width][.precision][size]type
+this function built from scratch with enhanced improvements like:
+- Reverse string
+- ROT13 string
+- Print numbers in Binary
+- Print numbers in Octal
+
+### Usage:
+> %[flags][width][.precision][size]type
 
 ## Things with special meanings:
  ### Flags:
+  ```
   - : left-justify (right justifivation is the default)
   + : prefix the value with (+) if it's positive.
   $ : padding the remaining width with C character
-  # : used with o, x, X specifiers the value is preceeded
-      with 0, 0x, or 0x
-
+  # : used with o, x, X specifiers the value is preceeded with 0, 0x, or 0x
+```
  ### width: 
+ ```
   (num) : minimum width
-  *     : the width is not specified in the format string,
-          but it will pass as an argument
-
+  *     : the width is not specified in the format string, but it will pass as an argument
+```
  ### precision [ .(n) ]:
+ ```
   . : specifiy the precision
   n :_
       |--> if n == 0, then no characters will be displayed
@@ -27,10 +36,12 @@
       |    with leading zeros. the value is not truncated
       |    even if the result is longer
       |--> for string (s) this is the maximum number 
-      |    of characters to be printed
+           of characters to be printed
+```
 
 
 ## The most commonly used format specifiers :
+```
  ----------------------------------
  |             STRING             |
  ----------------------------------
@@ -65,6 +76,4 @@
  | %o      : signed octal         |
  ----------------------------------
 
-
-
-
+```
