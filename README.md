@@ -2,6 +2,7 @@
 
 
 this function built from scratch with enhanced improvements like:
+- Add special character for padding
 - Reverse string
 - ROT13 string
 - Print numbers in Binary
